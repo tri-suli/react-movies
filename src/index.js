@@ -2,11 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './views/App';
 import reportWebVitals from './reportWebVitals';
-import 'antd/dist/antd.css';
+import './index.css';
+import services from './services';
+
+console.log(services);
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App service={services} />
   </React.StrictMode>,
   document.getElementById('root')
 );
