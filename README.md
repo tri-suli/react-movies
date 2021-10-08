@@ -1,3 +1,11 @@
 # React Movies
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia error recusandae voluptates sit nostrum perspiciatis eos fugiat rerum sed neque accusamus illo, quidem sequi voluptate? Corrupti, odit? Aut, eligendi architecto.
+Simple react app to searching and displaing list of movies from IMDB.
+
+## installation
+
+- Clone or download this repo
+- Run `npm install` to install required modules
+- Start the application by run `npm start` command in your terminal
+- Open your browser and visit `http://localhost:3000`
+- Happy searching...

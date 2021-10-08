@@ -1,7 +1,7 @@
 import axios from "axios";
 
 async function list (keyword, page = 1) {
-    const response = await axios.get('http://www.omdbapi.com', {
+    const response = await axios.get(process.env.REACT_APP_API, {
         params: {
             page,
             s: keyword,
